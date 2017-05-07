@@ -1,0 +1,23 @@
+languageCode = "en-us"
+title = "whatsgood.io"
+baseURL = "http://whatsgood.io/"
+theme = "hyde"
+
+[params]
+  disqusShortname = "learnFromInfo"
+  Author = "Matthias Bannert"
+  themeColor = "theme-base-0d"
+  description = "Analytics stacks for all trades. Data & Programming & Statistics. Learning & Teaching & Consulting."
+  googleAnalytics = ""
+
+[[menu.main]]
+  name = "software"
+  url = "/sites/software/"
+[[menu.main]]
+  name = "teaching & consulting"
+  url = "/sites/teaching/"
+  weight = 5
+[[menu.main]]
+  name = "whoami"
+  url = "/sites/whoami"
+  weight = 1
