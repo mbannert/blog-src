@@ -5,3 +5,10 @@ Tags = ["R Stats","Matthias Bannert","Open Source"]
 Description = "Open Source Software for Data Driven Analytics."
 
 +++
+
+## Establishment statistics
+
+
+
+
+## Online Marketing
