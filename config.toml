@@ -7,7 +7,7 @@ theme = "hyde"
   disqusShortname = "learnFromInfo"
   Author = "Matthias Bannert"
   themeColor = "theme-base-0d"
-  description = "Analytics stacks for all trades. Data & Programming & Statistics. Learning & Teaching & Consulting."
+  description = "Full stack data kid. Process data. Share information. learn. teach. repeat."
   googleAnalytics = ""
 
 [[menu.main]]
