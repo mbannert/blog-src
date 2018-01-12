@@ -14,7 +14,7 @@ LinkedIn aficionados would probably say I am a *data scientist*. After completin
 
 ![Matt Bannert](/images/mattbannert.jpg)
 
-Speaking of software development, I like most things R (except stringAsFactors = TRUE) and PostgreSQL. And yes, I do like Python for scientific use. I like to explore newer languages and stacks such as Go. I also worked in web development back when people wore pyjamas and lived live slow. As long as it's open source (or sublime text or a JetBrains' product) I am listening.
+Speaking of software development, I like most things R (except stringAsFactors = TRUE) and PostgreSQL. And yes, I do like Python for scientific use. I like to explore newer languages and stacks such as Go. I also worked in web development back when people wore pyjamas and lived life slow. As long as it's open source (or sublime text or a JetBrains' product) I am listening.
 
 However, nowadays the R language is my most regular companion. I write and maintain R packages to make establishment statistics a little more fun: *timeseriesdb* is an R interface to PostgreSQL and was built to manage and archive (macroeconomic) time series. *tstools* is an R toolbox to perform typical establishment statistics operations (as of now mostly plotting) on time series. *Radwords* is an API wrapper around Google's Adwords interface and obviously doesn't fit the establishment statistics tale. The package is joint work with my buddy [@jburkhardt](https://github.com/jburkhardt/Radwords) and is part of my professional links outside academia. Please find more about my open source work [here](software).
 
