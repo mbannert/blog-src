@@ -1,6 +1,6 @@
 +++
 Categories = ["R","rstats","postgreSQL","API"]
-date = "2017-12-19T11:11:05+01:00"
+date = "2018-01-12T11:11:05+01:00"
 title = "Swiss data in R - Introducing the kofdata API R package"
 Tags = ["rstats","API","Swiss data","forward looking indicator"]
 Description = "Swiss data in R - Introducing the kofdata API R package"
@@ -9,7 +9,9 @@ Description = "Swiss data in R - Introducing the kofdata API R package"
 In an effort to make public data public, at KOF, we have recently introduced a REST Interface
 to conveniently automate data downloads. R users can now benefit in even more convenient fashion, 
 because of the brand new 'kofdata' CRAN package. The package allows to download Swiss time series data and meta information
-through simple R functions. 
+through simple R functions. <!--more-->
+
+
 
 Installing the package is a matter of:
 
@@ -37,7 +39,7 @@ plot(tslist$kofbarometer)
 
 ```
 
-![KOF Barometer](/images/kofbarometer.png)
+![KOF Barometer](/images/kofbaro.png)
 
 
 
@@ -50,7 +52,7 @@ tsplot(globidx)
 
 ```
 
-![KOF Globidx](/images/kofbarometer.png)
+![KOF Globidx](/images/globidx.png)
 
 
 And yes, there's a bit more to the package than just querying vectors of keys: 
