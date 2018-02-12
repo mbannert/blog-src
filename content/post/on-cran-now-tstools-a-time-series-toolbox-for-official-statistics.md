@@ -3,14 +3,11 @@ Categories = ["R for economists","rstats","economic data visualization"]
 date = "2018-02-12T11:09:05+01:00"
 title = "On CRAN now: tstools - An R Toolbox for Time Series in Official Statistics and Macroeconomics"
 Tags = ["rstats for economists","2 Y-axes","statistics","rstats","establishment statistics"]
-Description = "tstools is an R toolbox for plotting time series in establishment statistics and macroeconomics. Conveniently use 2 y-axes, stacked bar charts with positive and negative contribution, highlight windows, ... 
+Description = "tstools is an R toolbox for plotting time series in establishment statistics and macroeconomics. Conveniently use 2 y-axes, stacked bar charts with positive and negative contribution, highlight windows, ... "
 +++
 
 
-Shouldn't creating a **neat** time series chart **/w legend** be a matter of tsplot(my_data)? Don't you feel plotting a chart with 2 y-axes should be possible without getting hammered by community support for comming up with a desire that is 'fundamentally flawed' and 'utterly disgusting'? 
-
-
-<!-- more -->
+Shouldn't creating a **neat** time series chart **/w legend** be a matter of *tsplot(my_data)*? Don't you feel plotting a chart with 2 y-axes should be possible without getting hammered by community support for comming up with a desire that is 'fundamentally flawed' and 'utterly disgusting'? <!--more-->
 
 I mean like
 
@@ -46,7 +43,7 @@ tsplot(CHGDP,left_as_bar = T,theme = tt)
 ![Stacked](/images/stacked_bar_gdp.png)
 
 
-###. 3 Grouped Bar Charts
+### 2. Grouped Bar Charts
 
 Let's have detailed look at some smaller sectors and display bars next to 
 each other, so smaller contributions can be compared more easily.
@@ -85,7 +82,7 @@ tsplot(CHGDP[c(2,3,4)],
 ![highlight](/images/highlight_window.png)
 
 
-As you can see, it's essentially the same call to *tsplot* and the same input time series. Just by tweaking the defaults a bit we can easily draw some of the macroeconomics' most popular time series plots. The easiest way to get started is to download the package from and follow the *vignette* for some introductory examples. 
+As you can see, it's essentially the same call to *tsplot* and the same input time series. Just by tweaking the defaults a bit we can easily draw some of the macroeconomics' most popular time series plots. The easiest way to get started is to download the package from CRAN and follow the *vignette* for some introductory examples. 
 
 ```
 install.packages("tstools")
@@ -93,5 +90,5 @@ vignette("tstools")
 
 ```
 
-This is *tstools'* first public release. So feedback and feature requests are more than welcome! I hope to highlight many new features here in the future! 
+This is *tstools'* first public release. So questions, feedback and feature requests are more than welcome! I hope to highlight many new features here in the future.
 
