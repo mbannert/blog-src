@@ -13,7 +13,8 @@ I mean like
 
 ```
 data(KOF)
-tsplot(KOF$kofbarometer, tsr = KOF$reference)
+tsplot(list("KOF Barometer" = KOF$kofbarometer),
+            tsr = list("Reference" = KOF$reference))
 ```
 
 ![Stacked](/images/baro_w_reference.png)
